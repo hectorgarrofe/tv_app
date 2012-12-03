@@ -1,0 +1,1278 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>TV</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="cleartype" content="on">
+
+    <!-- iPhone -->
+    <link href="app_icons/icon-57.png" sizes="57x57" rel="apple-touch-icon">
+    <link href="http://lungo.tapquo.com/resources/startup-image-320x460.png" media="(device-width: 320px) and (device-height: 480px)
+             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+
+    <!-- iPhone (Retina) -->
+    <link href="app_icons/icon-114.png" sizes="114x114" rel="apple-touch-icon-precomposed">
+    <link href="splash/iphone_retina.png" media="(device-width: 320px) and (device-height: 480px)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+    <!-- iPhone 5 -->
+    <link href="http://lungo.tapquo.com/resources/startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+    <!-- iPad -->
+    <link href="app_icons/icon-72.png" sizes="72x72" rel="apple-touch-icon">
+    <link href="http://lungo.tapquo.com/resources/startup-image-768x1004.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: portrait)
+             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+    <link href="http://lungo.tapquo.com/resources/startup-image-748x1024.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: landscape)
+             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+
+    <!-- iPad (Retina) -->
+    <link href="app_icons/icon-144.png" sizes="144x144" rel="apple-touch-icon">
+    <link href="http://lungo.tapquo.com/resources/startup-image-1536x2008.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: portrait)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link href="http://lungo.tapquo.com/resources/startup-image-1496x2048.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: landscape)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+    <!-- Lungo - Stylesheets -->
+    <link rel="stylesheet" href="components/lungo/lungo.css">
+    <link rel="stylesheet" href="components/lungo/lungo.icon.css">
+    <link rel="stylesheet" href="components/lungo/lungo.icon.brand.css">
+    <link rel="stylesheet" href="components/lungo/lungo.theme.tv.css">
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>
+
+<body class="app">
+
+
+    <section id="main" data-transition="slide">
+        <header  class="">
+            <nav class="left box">
+                <a href="#features" data-router="aside" data-icon="menu"></a>
+            </nav>
+            <nav class="right box">
+                <a href="#second" data-router="section" data-icon="share"></a>
+            </nav>
+            <div class="centered title with-subtitle">
+                TV
+                <small class="subtitle">La aplicación para ver TV</small>
+            </div>
+        </header>
+		
+		<!-- només per probar com posariem un peu -->
+		<!-- <footer class="toolbar"></footer> -->
+
+        <article id="main-article" class="list indented scroll">
+            <ul>
+                <li class="dark">
+                    <strong>Aplicación en pruebas.</strong>
+                </li>
+                <li data-icon="chat" class="feature">
+                    <strong>¡Gracias por comprar TV!</strong>
+                    Te agradecemos la confianza que has depositado en esta aplicación y prometemos mejorarla constantemente.
+                </li>
+                <li data-icon="mail" class="feature">
+                    <strong>Contáctanos</strong>
+                    Si tienes problemas, dudas o sugerencias para mejorar la app no dudes en ponerte en contacto con nostros.
+                </li>
+				<li>
+                    <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Flungo.tapquo.com%2F&amp;text=@lungojs a framework for developers who want to design, build and share cross device apps" data-icon="brand twitter" target="_blank" class="button big theme" data-label="¡Haz un Tweet!"></a>
+                </li>
+            </ul>
+        </article>
+
+        <article id="third-article" class="list scroll">
+		<ul>
+            <li class="thumb selectable" data-image="img/logos/antena3.png">
+				<a href="#antena3" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>Antena3</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/antena3.png">
+				<a href="#antena3_24h" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>Antena3 24h</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/tve1.png">
+				<a href="#tve1" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>TVE1</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/la2.png">
+				<a href="#la2" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>La2</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/tve1.png">
+				<a href="#tve24h" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>TVE 24h</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/cuatro.png">
+				<a href="#cuatro" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>Cuatro</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/telecinco.png">
+				<a href="#telecinco" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>Telecinco</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/lasexta.png">
+				<a href="#lasexta" data-router="section">
+				<div class="right bubble orange">no acaba de cargar</div>
+				<strong>La Sexta</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/lasexta.png">
+				<a href="#lasiete" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>La Siete</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#divinity" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>Divinity</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#euronews" data-router="section">
+				<div class="right bubble orange">no acaba de cargar</div>
+				<strong>Euronews</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#mtv" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>MTV</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#kisstv" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>KISS TV</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#intereconomia" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>Intereconomía</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#fashiontv" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>Fashion TV</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#marca" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>MARCA</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#teledeporte" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>Teledeporte</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#eurosport1" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>Eurosport1</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#eurosport2" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>Eurosport2</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#aragontv" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>Aragon TV</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#extremadura" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>Extremadura</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#canal9_24h" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>Canal 9 24h</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#canalsur" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>Canal Sur</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#ceutatv" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>Ceuta TV</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#eitb" data-router="section">
+				<div class="right bubble orange">no acaba de cargar</div>
+				<strong>EITB</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#eldia" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>El dia</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#ib3" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>IB3</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#rt" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>RT</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#rtv_canaria1" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>RTV Canaria 1</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#rtv_canaria2" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>RTV Canaria 2</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#rtv_canaria_net" data-router="section">
+				<div class="right bubble orange">no lo sé</div>
+				<strong>RTV Canaria NET</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#rtv_canaria_ceuta" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>RTV Canaria Ceuta</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#solidaria_tv" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>Solidaria TV</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#telemadrid" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>Telemadrid</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#tpa7" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>TPA7</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#tvg_europa" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>TVG Europa</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#tvg_america" data-router="section">
+				<div class="right bubble green">funciona</div>
+				<strong>TVG America</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#tv3_cat" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>TV3 CAT</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#tv3_cat_24h" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>TV3 CAT 24H</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#xarxa" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>Xarxa</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+            <li class="thumb selectable" data-image="img/logos/intereconomia.png">
+				<a href="#siete_rm" data-router="section">
+				<div class="right bubble red">no funciona</div>
+				<strong>7 RM</strong>
+				<small>Pequeña descripción</small>
+				</a>
+			</li>
+		</ul>
+        </article>
+    </section>
+
+
+    <section id="second" data-transition="slide">
+        <header data-title="Contacto">
+            <nav class="box">
+                <a href="#back" data-router="section" data-icon="home"></a>
+            </nav>
+            <nav class="right box">
+                <a href="#third" data-router="section" data-icon="up" data-label="Section"></a>
+            </nav>
+        </header>
+        <article></article>
+    </section>
+
+
+    <section id="third" data-transition="slide">
+        <header data-title="Third section">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Close"></a>
+            </nav>
+        </header>
+        <article></article>
+    </section>
+	
+    <section id="test-list-item" data-transition="slide">
+        <header data-title="Test list item">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Atrás"></a>
+            </nav>
+        </header>
+        <article>
+			<h1>Test</h1>
+			<p>Lorem ipsum dolor sit amet.</p>
+		</article>
+    </section>
+
+	<!-- Canales -->
+    <section id="antena3" data-transition="slide">
+        <header data-title="Antena3">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Antena3 Televisión</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel01/index.m3u8"></video>
+				</li>
+		</article>
+    </section>
+    
+    <section id="antena3_24h" data-transition="slide">
+        <header data-title="Antena3 24h">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Antena3 Televisión 24h</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel01/index.m3u8"></video>
+				</li>
+		</article>
+    </section>
+    
+    <section id="tve1" data-transition="slide">
+        <header data-title="TVE1">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Televisión española</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://iphonelive.rtve.es/LA1_LV3_IPH/LA1_LV3_IPH.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="tve24h" data-transition="slide">
+        <header data-title="TVE 24h">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>TVE 24h</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://iphonelive.rtve.es/24H_LV3_IPH/24H_LV3_IPH.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="la2" data-transition="slide">
+        <header data-title="La2">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>La 2</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://iphonelive.rtve.es/LA2_LV3_IPH/LA2_LV3_IPH.m3u8"></video>
+				</li>
+		</article>
+    </section>
+    
+    <section id="cuatro" data-transition="slide">
+        <header data-title="Cuatro">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Cuatro</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://telecinco-channel4-apple-live.adaptive.level3.net/apple/telecinco/channel4/800k.m3u8"></video>
+				</li>
+		</article>
+    </section>
+    
+    <section id="telecinco" data-transition="slide">
+        <header data-title="Telecinco">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Telecinco</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://telecinco-channel3-apple-live.adaptive.level3.net/apple/telecinco/channel3/800k.m3u8"></video>
+				</li>
+		</article>
+    </section>
+    
+    <section id="lasexta" data-transition="slide">
+        <header data-title="La Sexta">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>La Sexta</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://istreaming.lasexta.com/iphoneapp/iphoneapp.stream/playlist.m3u8"></video>
+				</li>
+		</article>
+    </section>
+    
+    <section id="lasiete" data-transition="slide">
+        <header data-title="La Siete">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>La Siete</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://telecinco-channel1-apple-live.adaptive.level3.net/apple/telecinco/channel4/600k.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="intereconomia" data-transition="slide">
+        <header data-title="Intereconomía">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Intereconomía</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://media.intereconomia.com:1935/live/intereconomiatv1/playlist.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="divinity" data-transition="slide">
+        <header data-title="Divinity">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Divinity</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://telecinco-channel3-apple-live.adaptive.level3.net/apple/telecinco/channel2/880k.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="euronews" data-transition="slide">
+        <header data-title="Euronews">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Euronews</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://akamedia2.lsops.net/live/smil:euronews_es.smil/playlist.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="mtv" data-transition="slide">
+        <header data-title="Euronews">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>MTV</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://82.165.130.134:1935/live3/tvi/playlist.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="kisstv" data-transition="slide">
+        <header data-title="KISS TV">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>KISS TV</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://kissfm.en-directo.com/iphone/index_multirate.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="fashiontv" data-transition="slide">
+        <header data-title="Fashion TV">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Fashion TV</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://217.146.95.164:8081/ch27yiphone.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="teledeporte" data-transition="slide">
+        <header data-title="Teledeporte">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Teledeporte</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://iphonelive.rtve.es/TDP_LV3_IPH/TDP_LV3_IPH.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="marca" data-transition="slide">
+        <header data-title="Marca">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Marca</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://82.165.130.134:1935/live2/MarC/playlist.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="eurosport1" data-transition="slide">
+        <header data-title="Eurosport 1">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Eurosport 1</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://live.iphone.eurosport.com/uk1/stc_0_0.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="eurosport2" data-transition="slide">
+        <header data-title="Eurosport 2">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Eurosport 2</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://live.iphone.eurosport.com/uk2/stc_0_0.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="aragontv" data-transition="slide">
+        <header data-title="Aragon TV">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Aragon TV</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://aragontv.vo.llnwd.net/e2/AragonIphone.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="extremadura" data-transition="slide">
+        <header data-title="Extremadura">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Extremadura</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://iphonelive.canalextremadura.es/tv/tv_Layer1.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="canal9_24h" data-transition="slide">
+        <header data-title="Canal 9 24h">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Canal 9 24h</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://rtvv.stream.flumotion.com/rtvv/main.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="canalsur" data-transition="slide">
+        <header data-title="Canal Sur">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Canal Sur</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://iphone-andaluciatelevision.rtva.stream.flumotion.com/rtva/andaluciatelevision-iphone-multi/main.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="ceutatv" data-transition="slide">
+        <header data-title="Ceuta TV">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Ceuta TV</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://149.6.38.58:1935/anguloceuta/anguloceuta/playlist.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="eitb" data-transition="slide">
+        <header data-title="EITB">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>EITB</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://ioseitbtv-i.akamaihd.net/hls/live/200623/eitbtv/zuzenean/master.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="eldia" data-transition="slide">
+        <header data-title="El dia">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>El dia</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://149.62.176.100:1935/dia/dia/playlist.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="ib3" data-transition="slide">
+        <header data-title="IB3">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>IB3</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://ibsatiphone.ib3tv.com/iphoneliveIB3/IB3/IB3.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="rt" data-transition="slide">
+        <header data-title="RT">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>RT</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://rt.fms.visionip.tv/live/RT_Spanish_3/playlist.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="rtv_canaria1" data-transition="slide">
+        <header data-title="RTV Canaria 1">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>RTV Canaria 1</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://streaming.mad.idec.net/rtvc1/rtvc_1.sdp/playlist.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="rtv_canaria2" data-transition="slide">
+        <header data-title="RTV Canaria 2">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>RTV Canaria 2</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://streaming.mad.idec.net/rtvc2/rtvc_2.sdp/playlist.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="rtv_canaria_net" data-transition="slide">
+        <header data-title="RTV Canaria NET">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>RTV Canaria NET</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://streaming.mad.idec.net/rtvcnet/rtvc_net.sdp/playlist.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="rtv_canaria_ceuta" data-transition="slide">
+        <header data-title="RTV Canaria Ceuta">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>RTV Canaria Ceuta</strong>
+				</li>
+				<li>
+					Alguna cosilla
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://149.6.38.58:1935/ceutatvlive/ceutatv/playlist.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="solidaria_tv" data-transition="slide">
+        <header data-title="Solidaria TV">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Solidaria TV</strong>
+				</li>
+				<li>
+					<strong>Alguna cosilla</strong>
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://flash.todostreaming.es:1945/live/mystream/playlist.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="telemadrid" data-transition="slide">
+        <header data-title="Telemadrid">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Telemadrid</strong>
+				</li>
+				<li>
+					<strong>Alguna cosilla</strong>
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://iphone.telemadrid.es.edgesuite.net/telemadridsat_iphone.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="tpa7" data-transition="slide">
+        <header data-title="TPA 7">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>TPA 7</strong>
+				</li>
+				<li>
+					<strong>Alguna cosilla</strong>
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://iphone.rtpa.stream.flumotion.com/rtpa/tv-iphone/main.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="tvg_europa" data-transition="slide">
+        <header data-title="TVG Europa">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>TPG Europa</strong>
+				</li>
+				<li>
+					<strong>Alguna cosilla</strong>
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://media3.crtvg.es/live/tvge/playlist.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="tvg_america" data-transition="slide">
+        <header data-title="TVG America">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>TVG America</strong>
+				</li>
+				<li>
+					<strong>Alguna cosilla</strong>
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://media3.crtvg.es/live/tvga/playlist.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="tv3_cat" data-transition="slide">
+        <header data-title="TV3 CAT">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>TV3 CAT</strong>
+				</li>
+				<li>
+					<strong>Alguna cosilla</strong>
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://tv3cat.iphone.directes.tv3.cat/tv3cat.m3u8"></video>
+				</li>
+		</article>
+    </section>
+
+    <section id="tv3_cat_24h" data-transition="slide">
+        <header data-title="TV3 CAT 24H">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>TV3 CAT 24H</strong>
+				</li>
+				<li>
+					<strong>Alguna cosilla</strong>
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://324.iphone.directes.tv3.cat/324.m3u8"></video>
+				</li>
+		</article>
+    </section>
+    
+    <section id="xarxa" data-transition="slide">
+        <header data-title="Xarxa">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>Xarxa</strong>
+				</li>
+				<li>
+					<strong>Alguna cosilla</strong>
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://iphone.xal.stream.flumotion.com/xal/iphone/main.m3u8"></video>
+				</li>
+		</article>
+    </section>
+    
+    <section id="siete_rm" data-transition="slide">
+        <header data-title="7 RM">
+            <nav class="right box">
+                <a href="#back" data-router="section" data-label="Cerrar"></a>
+            </nav>
+        </header>
+        <article class="list">
+			<ul>
+				<li>
+					<strong>7 RM</strong>
+				</li>
+				<li>
+					<strong>Alguna cosilla</strong>
+				</li>
+				<li>
+					<video controls width="100%" height="200px" src="http://80.73.144.86:1935/live/7rm/tv/playlist.m3u8"></video>
+				</li>
+		</article>
+    </section>
+    <!-- FIN Canales -->
+
+
+    <aside id="features">
+        <header data-title="Menú"></header>
+        <article class="list">
+            <ul>
+                <li class="current" data-icon="home">
+                    <a href="#main-article" data-router="article">
+                        <strong>Inicio</strong>
+						<small>Información sobre la aplicación</small>
+                    </a>
+                </li>
+                <li data-icon="broadcast">
+                    <a href="#third-article" data-router="article">
+					<div class="bubble right">41</div>
+					<strong>España</strong>
+					<small>Canales de España</small>
+					</a>
+                </li>
+            </ul>
+        </article>
+    </aside>
+	
+    <!-- Lungo - Dependencies -->
+    <script src="components/quojs/quo.js"></script>
+    <script src="components/lungo/lungo.js"></script>
+    <!-- Lungo - Sandbox App -->
+    <script>
+        Lungo.init({
+            name: 'prueba',
+			version: '0.1'
+        });
+    </script>
+</body>
+</html>
